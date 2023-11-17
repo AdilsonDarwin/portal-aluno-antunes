@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<!-- saved from url=(0026)http://172.16.0.232/portal -->
+<html lang="en" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal do Estudante - Instituto Piaget de Angola</title>
+    <!-- App Favicon -->
+    <link rel="icon" type="image/x-icon" href="http://172.16.0.232/Assets/images/favicon.png">
+    <!-- App CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+    <link rel="stylesheet" href="./Portal do Estudante - Instituto Piaget de Angola_files/all.min.css">
+    <link href="./Portal do Estudante - Instituto Piaget de Angola_files/template.css" rel="stylesheet">
+    <link href="./Portal do Estudante - Instituto Piaget de Angola_files/css.css" rel="stylesheet">
+    <link href="./Portal do Estudante - Instituto Piaget de Angola_files/libs.css" rel="stylesheet">
+    <link href="./Portal do Estudante - Instituto Piaget de Angola_files/select2.min.css" rel="stylesheet">
+    <link href="./Portal do Estudante - Instituto Piaget de Angola_files/select2-bootstrap4.min.css" rel="stylesheet">
+    <link href="./Portal do Estudante - Instituto Piaget de Angola_files/fullcalendar.css" rel="stylesheet">
+    <link href="./Portal do Estudante - Instituto Piaget de Angola_files/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style-add.css">
+
+</head>
+<body class="layout-sticky-subnav layout-learnly">
+    <div class="page-loader" style="display:none">
+        <!-- Add .preloader and remove style -->
+        <div class="sk-flow">
+            <div class="sk-flow-dot"></div>
+            <div class="sk-flow-dot"></div>
+            <div class="sk-flow-dot"></div> 
+        </div>
+    </div>
+
+    <!-- Drawer Layout -->
+    <div class="mdk-header-layout js-mdk-header-layout" data-domfactory-upgraded="mdk-header-layout">
+        <!-- Header -->
+        <div id="header" class="mdk-header js-mdk-header mb-0" data-fixed="" data-effects="waterfall" data-retarget-mouse-scroll="" data-domfactory-upgraded="mdk-header"><div class="mdk-header__bg"><div class="mdk-header__bg-front"></div><div class="mdk-header__bg-rear"></div></div>
+            <div class="mdk-header__content">
+                <form action="http://172.16.0.232/Account/LogOff" class="mdk-header--fixed mdk-header--shadow" id="logoutForm" method="post" data-primary="data-primary"><input name="__RequestVerificationToken" type="hidden" value="q_VOhSiCnE2IaSfsRrLXMnnQ592UzXOXNjTobxMwcfNO1IYTw3s992pmqm2wF9V60IFjOm3kr7Fd9yEf-cJU6ZjleIVMdFFN812rGDq_lEKIORthR1ajJ6JECOVRlx1ham_tgZTdrUHsf_0LquIm2A2"></form><!-- navbar-light bg-white -->
+<div class="navbar navbar-expand navbar-dark-pickled-bluewood topbar-img" id="default-navbar">
+    <div class="container ">
+
+        <!-- Navbar Brand -->
+        <a href="http://172.16.0.232/" class="navbar-brand mr-16pt">
+            <span class="avatar avatar-sm navbar-brand-icon mr-0 mr-lg-8pt">
+                <span class="avatar-title rounded bg-white">
+                    <img src="./Portal do Estudante - Instituto Piaget de Angola_files/logo-piaget.png" alt="logo" class="img-fluid">
+                </span>
+            </span>
+        </a>
+
+        <!-- Navbar toggler -->
+        <button class="navbar-toggler w-auto mr-16pt d-block rounded-0" type="button" data-toggle="sidebar">
+            <span class="fa fa-bars"></span>
+        </button>
+        <div class="navbar justify-content-start btn-group">
+            <a class="btn btn-sm btn-light" href="http://172.16.0.232/" title="Início"><i class="fa fa-home icon--left"></i> Início</a>
+        </div>
+
+        <ul class="nav navbar-nav d-none d-sm-flex flex justify-content-start ml-8pt">
+            <!--
+            <li class="nav-item dropdown">
+                <a href="#"
+                   class="nav-link dropdown-toggle"
+                   data-toggle="dropdown"
+                   data-caret="false">Links úteis</a>
+                <div class="dropdown-menu">
+                    <a href=""
+                       class="dropdown-item active">Candidaturas a Cursos</a>
+                </div>
+            </li>
+            -->
+        </ul>
+
+            <form class="search-form form-control-rounded navbar-search d-none d-lg-flex mr-16pt" action="http://172.16.0.232/portal" style="max-width: 230px">
+                <button class="btn" type="submit">
+                    <i class="fa fa-search"></i>
+                </button>
+                <input type="text" class="form-control">
+            </form>
+        <div class="nav navbar-nav flex-nowrap d-flex mr-16pt">
+        </div>
+
+        <ul class="nav navbar-nav ml-auto mr-0">
+<!-- Notifications dropdown -->
+                <div class="nav-item ml-16pt dropdown dropdown-notifications dropdown-xs-down-full">
+                    <button class="nav-link btn-flush dropdown-toggle" type="button" data-toggle="dropdown" data-caret="false">
+                        <i class="fa fa-bell" style="font-size:24px;"></i>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <div data-perfect-scrollbar="" class="position-relative ps">
+                            <div class="dropdown-header"><strong>Notificações</strong></div>
+                            <div class="list-group list-group-flush mb-0">
+                                <a href="javascript:void(0);" class="list-group-item list-group-item-action unread">
+                                    <span class="d-flex">
+                                        <span class="flex d-flex flex-column">
+                                            <span class="text-black-70">Não tem notificações de momento.</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                        <div class="ps__rail-x" style="left: 0px; bottom: 0px;"><div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps__rail-y" style="top: 0px; right: 0px;"><div class="ps__thumb-y" tabindex="0" style="top: 0px; height: 0px;"></div></div></div>
+                    </div>
+                </div>
+                <!-- // END Notifications dropdown -->
+                <li class="nav-item dropdown">
+                    <a href="http://172.16.0.232/portal#" class="nav-link dropdown-toggle blink" data-toggle="dropdown" data-caret="false"><i class="fa fa-question-circle" style="font-size:24px;"></i></a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a href="http://172.16.0.232/home/shortcuts" class="dropdown-item pt-3" title="Atalhos"><i class="fa fa-shrimp fa-fw"></i>&nbsp;Atalhos </a>
+                        <a href="https://manual.piagetsga.unipiaget-angola.org/" target="_blank" class="dropdown-item" title="Manual do Utilizador"><i class="fa fa-book fa-fw"></i>&nbsp;Manual do Utilizador </a>
+                        <a href="https://ocorencias.piagetsga.unipiaget-angola.org/" target="_blank" class="dropdown-item pb-2" title="Centro de Ocorrências"><i class="fa fa-bug fa-fw"></i>&nbsp;Centro de Ocorrências</a>
+                    </div>
+                </li>
+        </ul>
+
+            <!-- Navbar Menu -->
+            <div class="nav navbar-nav flex-nowrap d-flex mr-16pt">
+                <!-- Account Menu dropdown -->
+                <div class="nav-item dropdown">
+                    <a href="http://172.16.0.232/portal#" class="nav-link d-flex align-items-center dropdown-toggle" data-toggle="dropdown" data-caret="false">
+                        <img width="32" height="32" class="rounded-circle avatar avatar-sm mr-8pt2" src="./Portal do Estudante - Instituto Piaget de Angola_files/user-avatar.jpg" alt="Conta">
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <div class="dropdown-header"><strong>antunes.domingos</strong></div>
+                        <a class="dropdown-item" href="http://172.16.0.232/account/profile?uri=general" title="Conta">Conta</a>
+                        <a class="dropdown-item" title="Terminar Sessão" accesskey="s" href="javascript:document.getElementById(&#39;logoutForm&#39;).submit()">Terminar Sessão</a>
+                    </div>
+                </div>
+            </div>
+            <!-- // END Navbar Menu -->
+
+    </div>
+</div>
+    <!-- Sticky Menu -->
+    <div class="sticky-container">
+        <ul class="sticky">
+            <li>
+                <span class="fa fa-shrimp fa-2x"></span>
+                <p><a title="Atalhos" href="http://172.16.0.232/home/shortcuts" target="_blank">Atalhos</a></p>
+            </li>
+            <li>
+                <span class="fa fa-book fa-2x"></span>
+                <p><a title="Manual do Utilizador" href="https://manual.piagetsga.unipiaget-angola.org/" target="_blank">Manual do<br>Utilizador</a></p>
+            </li>
+            <li>
+                <span class="fa fa-bug fa-2x"></span>
+                <p><a title="Centro de Ocorrências" href="https://ocorencias.piagetsga.unipiaget-angola.org/" target="_blank">Centro de <br> Ocorrências</a></p>
+            </li>
+        </ul>
+    </div>
+    <!-- // END Sticky Menu -->
+
+            </div>
+        </div>
+        <!-- // END Header -->
+        <!-- BEFORE Page Content -->
+        <!-- // END BEFORE Page Content -->
+        <!-- Page Content -->
+            
+<!-- Page Content -->
+<div class="container page-section">
+    <div class="main-areas d-flex">
+
+        <div class="atalho-area">
+            <div>
+                <div class="sidebar sidebar-mini ps sidebar-light sidebar-left d-flex flex-column card-reader-radius">
+                    <div class="card-header card-reader-radius bg-gradient-secondary">
+                        <h3 class="card-title text-white">Atalhos</h3>
+                    </div>
+            
+                    <div class="">
+                        <div class="sidebar sidebar-mini ps sidebar-left d-flex flex-column ">
+                            <ul class="sidebar-menu pb-16pt">
+                                <li class="sidebar-menu-item open">
+                                    <a class="sidebar-menu-button js-sidebar-collapse" data-toggle="collapse" href="home.html">
+                                        <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-home fa-fw"></i></span>
+                                        <span class="sidebar-menu-text hide-long-text">Recursos</span>
+                                    </a>
+                                    <ul class="sidebar-submenu collapse sm-indent show" id="GPAdm_menu">
+                                        <li class="sidebar-menu-item">
+                                            <a class="sidebar-menu-button" href="candidatura.html" title="Perfil">
+                                                <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-clipboard-check fa-fw"></i></span>
+                                                <span class="sidebar-menu-text">Candidaturas</span>
+                                            </a>
+                                        </li>
+                                        <li class="sidebar-menu-item">
+                                            <a class="sidebar-menu-button" href="pesquisa-notas.html" title="Pesquisa de Notas">
+                                                <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-search fa-fw"></i></span>
+                                                <span class="sidebar-menu-text hide-long-text">Pesquisa de Notas</span>
+                                            </a>
+                                        </li>
+                                        <li class="sidebar-menu-item">
+                                            <a class="sidebar-menu-button" href="percurso-academico.html">
+                                                <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-bar-chart fa-fw"></i></span>
+                                                <span class="sidebar-menu-text hide-long-text">Percurso Académico</span>
+                                            </a>
+                                        </li>
+                                        <li class="sidebar-menu-item">
+                                            <a class="sidebar-menu-button" href="perfil.html" title="Perfil">
+                                                <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-user fa-fw"></i></span>
+                                                <span class="sidebar-menu-text">Perfil</span>
+                                            </a>
+                                        </li>
+                                        <li class="sidebar-menu-item">
+                                            <a class="sidebar-menu-button" href="documentos.html">
+                                                <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-file-alt fa-fw"></i></span>
+                                                <span class="sidebar-menu-text">Documentos</span>
+                                            </a>
+                                        </li>
+                                        <li class="sidebar-menu-item">
+                                            <a class="sidebar-menu-button" href="reclamacoes.html">
+                                                <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-comments fa-fw"></i></span>
+                                                <span class="sidebar-menu-text">Reclamações</span>
+                                            </a>
+                                        </li>  
+                                        <li class="sidebar-menu-item">
+                                            <a class="sidebar-menu-button disabled" href="http://41.63.177.143:12013/portal/profile?uri=global">
+                                                <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-dollar-sign fa-fw"></i></span>
+                                                <span class="sidebar-menu-text">Emolumentos</span>
+                                            </a>
+                                        </li>
+                                        <li class="sidebar-menu-item">
+                                            <a class="sidebar-menu-button disabled" href="http://41.63.177.143:12013/portal/profile?uri=global">
+                                                <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-folder-open fa-fw"></i></span>
+                                                <span class="sidebar-menu-text">Certidões</span>
+                                            </a>
+                                        </li>
+                                        <li class="sidebar-menu-item">
+                                            <a class="sidebar-menu-button disabled" href="http://41.63.177.143:12013/portal/profile?uri=global">
+                                                <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-pen-fancy fa-fw"></i></span>
+                                                <span class="sidebar-menu-text">Exames</span>
+                                            </a>
+                                        </li>
+                                        <li class="sidebar-menu-item">
+                                            <a class="sidebar-menu-button disabled" href="http://41.63.177.143:12013/portal/profile?uri=global">
+                                                <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-calendar-check fa-fw"></i></span>
+                                                <span class="sidebar-menu-text">Horários</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sidebar-menu-item open">
+                                    <a class="sidebar-menu-button js-sidebar-collapse" data-toggle="collapse" href="http://172.16.0.232/portal#ConfigGP_menu">
+                                        <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-cog fa-fw"></i></span>
+                                        <span class="sidebar-menu-text hide-long-text">Outros</span>
+                                    </a>
+                                    <ul class="sidebar-submenu collapse sm-indent show" id="ConfigGP_menu">
+                                        <li class="sidebar-menu-item">
+                                            <a class="sidebar-menu-button disabled" href="http://41.63.177.143:12013/portal?uri=perfil" title="Perfil">
+                                                <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-envelope fa-fw"></i></span>
+                                                <span class="sidebar-menu-text">WebMail</span>
+                                            </a>
+                                        </li>
+                                        <li class="sidebar-menu-item">
+                                            <a class="sidebar-menu-button disabled" href="http://41.63.177.143:12013/portal?uri=perfil" title="Perfil">
+                                                <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-circle-info fa-fw"></i></span>
+                                                <span class="sidebar-menu-text">Ajuda</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="content-area">
+            <div>
+                <div class="card card-table-notas">
+                    <div class="card-header  card-reader-radius">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="col-12">
+                                    <div class="page-separator">
+                                        <div class="page-separator__text">
+                                            <p class="separator-line">
+                                                <i class="fa fa-search fa-fw"></i>
+                                                Pesquisa de Notas
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <p class="h6">
+                                        Informação sobre as disciplinas inscritas e notas adquiridas das épocas de exame
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="list-group list-group-flush p-2">
+                        <form action="#" class="form-notas my-1">
+                            <div class="form-group row">
+                                <div class="col-12 col-sm-8 col-md-6 col-lg-4 select">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    <label for=""><strong>Ano Lectivo:</strong></label>
+                                    <select name="year" id="" class="form-control">
+                                        <option value="">Escolha uma opção</option>
+                                        <option value="2022">2022</option>
+                                        <option value="2021">2021</option>
+                                        <option value="2020">2020</option>
+                                        <option value="2019">2019</option>
+                                    </select>
+                                    <small class="form-text text-muted">Selecione o ano lectivo para filtrar.</small>
+                                </div>
+                                <div class="col-5 col-sm-4 col-md-3 col-lg-2 select-control">
+                                    <label for="#">submeter</label>
+                                    <input type="submit" value="consultar" class="btn form-control">
+                                </div>
+                            </div>
+                        </form>
+                        <div class="notas-table-area mt-3">
+                             <h6><strong>INF 4º Ano 8 Disciplinas</strong></h6>
+                             <table class="table border-bottom">
+                                 <thead class="table-header bg-brown">
+                                     <tr>
+                                         <th>Disciplina</th>
+                                         <th>Turma</th>
+                                         <th>Regime</th>
+                                         <th>Inscrição</th>
+                                         <th>MFN</th>
+                                         <th>EX</th>
+                                         <th>REC</th>
+                                         <th>EXT</th>
+                                         <th>SUP</th>
+                                         <th>FIN</th>
+                                         <th>MEL</th>
+                                     </tr>
+                                 </thead>
+                                 <tbody>
+                                     <tr>
+                                         <td class="lesson">Automação Industrial (INF13A32)</td>
+                                         <td>INFGRD4A</td>
+                                         <td class="text-center">A</td>
+                                         <td>Frequência</td>
+                                         <td class="mfn text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                     </tr>
+                                     <tr>
+                                         <td class="lesson">Contabilidade Analítica (INF13A33)</td>
+                                         <td>INFGRD4A</td>
+                                         <td class="text-center">A</td>
+                                         <td>Frequência</td>
+                                         <td class="mfn text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                     </tr>
+                                     <tr>
+                                         <td class="lesson">Economia e Gestão da Produção (INF13A34)</td>
+                                         <td>INFGRD4A</td>
+                                         <td class="text-center">A</td>
+                                         <td>Frequência</td>
+                                         <td class="mfn text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                     </tr>
+                                     <tr>
+                                         <td class="lesson">Gestão Financeira (INF13A35)</td>
+                                         <td>INFGRD4A</td>
+                                         <td class="text-center">A</td>
+                                         <td>Frequência</td>
+                                         <td class="mfn text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                     </tr>
+                                     <tr>
+                                         <td class="lesson">Sistemas de Informação (INF13A36)</td>
+                                         <td>INFGRD4A</td>
+                                         <td class="text-center">A</td>
+                                         <td>Frequência</td>
+                                         <td class="mfn text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                     </tr>
+                                     <tr>
+                                         <td class="lesson">Fiscalidade (INF13S37)</td>
+                                         <td>INFGRD4A</td>
+                                         <td class="text-center">1</td>
+                                         <td>Frequência</td>
+                                         <td class="mfn text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                     </tr>
+                                     <tr>
+                                         <td>Redes de Computadores e Telecomunicações (INF13S38)</td>
+                                         <td>INFGRD4A</td>
+                                         <td class="text-center">1</td>
+                                         <td>Frequência</td>
+                                         <td class="mfn text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                     </tr>
+                                     <tr>
+                                         <td class="lesson">Infra-Estruturas de Informática e Telecomunicações (INF13S39)</td>
+                                         <td>INFGRD4A</td>
+                                         <td class="text-center">2</td>
+                                         <td>Frequência</td>
+                                         <td class="mfn text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                         <td class="text-center"></td>
+                                     </tr>
+                                 </tbody>
+                             </table>
+                        </div>
+                    </div>
+    
+                    <div class="card-footer">
+                        <p class="text-md"><strong>SIGLAS E SÍMBOLOS</strong></p>
+                        <hr>
+                        <p class="text-md">
+                            <strong>*</strong>- Situação Financeira Irregular;
+                            <strong>MFN</strong>- Média Final de Época Normal;
+                            <strong>EX</strong>- Exame 100%;
+                            <strong>REC</strong>- Exame de Recurso;
+                            <strong>EXT</strong>- Exame Extraordinário;
+                            <strong>SUP</strong>- Exame Suplementar;
+                            <strong>FIN</strong>- Exame de Finalistas;
+                            <strong>MEL</strong>- Exame de Melhorias de Notas;
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="user-data-area">
+            <div>
+                <div class="card-header bg-gradient-secondary border-bottom-2 p-4 card card-reader-radius o-hidden">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <div class="user-box">
+                                <a href="http://172.16.0.232/portal" target="_blank" title=""><img class="border-gray profile-image profile-image mr-md-32pt mb-32pt mb-md-0 img-fluid text-warning" src="./Portal do Estudante - Instituto Piaget de Angola_files/user-avatar.jpg" alt=""></a>
+                            </div>
+    
+                        </div>
+                    </div>
+                    <div class="row mt-12pt">
+                        <div class="col-md-12 text-center">
+                            <h3 class="text-white mb-0 pb-2" style="border-bottom: 1px solid #eca021;">
+                                Antunes António Augusto Domingos
+                            </h3>
+                        </div>
+                        <div class="col-md-12 mt-12pt text-center">
+                            <h6 class="text-white mb-0">
+                                <i class="fa-regular fa-id-badge"></i>
+                                V0048225
+                            </h6>
+                            <h6 class="text-white mb-0">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                Engenharia Informática de Gestão
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="row mt-12pt">
+                        <div class="col-sm-12 text-white">
+                            <div class="mt-24pt">
+                                <a href="http://172.16.0.232/portal?uri=editperfil" title="Editar Perfil" class="btn btn-user btn-sm w-100">
+                                    <strong><i class="fa fa-pencil"></i> Editar Perfil</strong>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- // END Page Content -->
+<!-- Footer -->
+<div class="bg-white border-top-2 mt-auto">
+    <div class="container page-section d-flex flex-column">
+        <!--.container -->
+        <!--<p class="text-70 brand mb-24pt"> <img class="brand-icon" src="/Assets/images/logo-black.png" width="30"  alt="Luma"></p>-->
+        <p class=" small  mb-0">antunes.domingos</p>
+        <p class="text-50 small mt-n1 mb-0">Instituto Piaget de Angola</p>
+    </div>
+</div>
+<!-- // END Footer -->
+<!-- // END drawer-layout__content -->
+<!-- drawer -->
+<!-- Drawer -->
+
+
+<!-- // END Drawer Layout -->
+<!-- Modal -->
+    <div class="modal fade" id="crudControlModal" tabindex="-1" role="dialog" aria-labelledby="crudControlLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                
+                <div class="modal-crud-content">
+                    <div class="p-12pt"><img src="./Portal do Estudante - Instituto Piaget de Angola_files/loading.gif"></div>
+                    <!-- // AJAXMODAL CRUDCONTROL CONTENT -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/jquery.min.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/popper.min.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/toastr.min.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/bootstrap.min.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/jquery.dataTables.min.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/moment.min.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/daterangepicker.min.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/perfect-scrollbar.min.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/dom-factory.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/material-design-kit.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/unobtrusive-ajax.min.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/dataTables.checkboxes.min.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/jquery.form.min.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/jquery.fancytree-all-deps.min.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/quill.min.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/sortable.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/piagetJS.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/select2.min.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/template.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/typeahead.bundle.min.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/fullcalendar.min.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/locales-all.min.js.transferir"></script>
+
+            
+<script>
+    /*(function () {
+        'use strict';
+        // ENABLE sidebar menu tabs
+        $('.js-sidebar-mini-tabs [data-toggle="tab"]').on('click', function (e) {
+            e.preventDefault()
+            $(this).tab('show')
+        })
+        $('.js-sidebar-mini-tabs').on('show.bs.tab', function (e) {
+            $('.js-sidebar-mini-tabs > .active').removeClass('active')
+            $(e.target).parent().addClass('active')
+        })
+    })()*/
+</script>
+<script>quillEditor();</script>
+<script>SetUpDatepicker();</script>
+
+</body></html>

@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<!-- saved from url=(0026)http://172.16.0.232/portal -->
+<html lang="en" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal do Estudante - Instituto Piaget de Angola</title> 
+    <!-- App Favicon -->
+    <link rel="icon" type="image/x-icon" href="http://172.16.0.232/Assets/images/favicon.png">
+    <!-- App CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+    <link rel="stylesheet" href="./Portal do Estudante - Instituto Piaget de Angola_files/all.min.css">
+    <link href="./Portal do Estudante - Instituto Piaget de Angola_files/template.css" rel="stylesheet">
+    <link href="./Portal do Estudante - Instituto Piaget de Angola_files/css.css" rel="stylesheet">
+    <link href="./Portal do Estudante - Instituto Piaget de Angola_files/libs.css" rel="stylesheet">
+    <link href="./Portal do Estudante - Instituto Piaget de Angola_files/select2.min.css" rel="stylesheet">
+    <link href="./Portal do Estudante - Instituto Piaget de Angola_files/select2-bootstrap4.min.css" rel="stylesheet">
+    <link href="./Portal do Estudante - Instituto Piaget de Angola_files/fullcalendar.css" rel="stylesheet">
+    <link href="./Portal do Estudante - Instituto Piaget de Angola_files/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style-add.css">
+</head>
+<body class="layout-sticky-subnav layout-learnly">
+    <div class="page-loader" style="display:none">
+        <!-- Add .preloader and remove style -->
+        <div class="sk-flow">
+            <div class="sk-flow-dot"></div>
+            <div class="sk-flow-dot"></div>
+            <div class="sk-flow-dot"></div> 
+        </div>
+    </div>
+
+    <!-- Drawer Layout -->
+    <div class="mdk-header-layout js-mdk-header-layout" data-domfactory-upgraded="mdk-header-layout">
+        <!-- Header -->
+        <div id="header" class="mdk-header js-mdk-header mb-0" data-fixed="" data-effects="waterfall" data-retarget-mouse-scroll="" data-domfactory-upgraded="mdk-header"><div class="mdk-header__bg"><div class="mdk-header__bg-front"></div><div class="mdk-header__bg-rear"></div></div>
+            <div class="mdk-header__content">
+                <form action="http://172.16.0.232/Account/LogOff" class="mdk-header--fixed mdk-header--shadow" id="logoutForm" method="post" data-primary="data-primary"><input name="__RequestVerificationToken" type="hidden" value="q_VOhSiCnE2IaSfsRrLXMnnQ592UzXOXNjTobxMwcfNO1IYTw3s992pmqm2wF9V60IFjOm3kr7Fd9yEf-cJU6ZjleIVMdFFN812rGDq_lEKIORthR1ajJ6JECOVRlx1ham_tgZTdrUHsf_0LquIm2A2"></form><!-- navbar-light bg-white -->
+<div class="navbar navbar-expand navbar-dark-pickled-bluewood topbar-img" id="default-navbar">
+    <div class="container ">
+
+        <!-- Navbar Brand -->
+        <a href="http://172.16.0.232/" class="navbar-brand mr-16pt">
+            <span class="avatar avatar-sm navbar-brand-icon mr-0 mr-lg-8pt">
+                <span class="avatar-title rounded bg-white">
+                    <img src="./Portal do Estudante - Instituto Piaget de Angola_files/logo-piaget.png" alt="logo" class="img-fluid">
+                </span>
+            </span>
+        </a>
+
+        <!-- Navbar toggler -->
+        <button class="navbar-toggler w-auto mr-16pt d-block rounded-0" type="button" data-toggle="sidebar">
+            <span class="fa fa-bars"></span>
+        </button>
+        <div class="navbar justify-content-start btn-group">
+            <a class="btn btn-sm btn-light" href="http://172.16.0.232/" title="Início"><i class="fa fa-home icon--left"></i> Início</a>
+        </div>
+
+        <ul class="nav navbar-nav d-none d-sm-flex flex justify-content-start ml-8pt">
+            <!--
+            <li class="nav-item dropdown">
+                <a href="#"
+                   class="nav-link dropdown-toggle"
+                   data-toggle="dropdown"
+                   data-caret="false">Links úteis</a>
+                <div class="dropdown-menu">
+                    <a href=""
+                       class="dropdown-item active">Candidaturas a Cursos</a>
+                </div>
+            </li>
+            -->
+        </ul>
+
+            <form class="search-form form-control-rounded navbar-search d-none d-lg-flex mr-16pt" action="http://172.16.0.232/portal" style="max-width: 230px">
+                <button class="btn" type="submit">
+                    <i class="fa fa-search"></i>
+                </button>
+                <input type="text" class="form-control">
+            </form>
+        <div class="nav navbar-nav flex-nowrap d-flex mr-16pt">
+        </div>
+
+        <ul class="nav navbar-nav ml-auto mr-0">
+<!-- Notifications dropdown -->
+                <div class="nav-item ml-16pt dropdown dropdown-notifications dropdown-xs-down-full">
+                    <button class="nav-link btn-flush dropdown-toggle" type="button" data-toggle="dropdown" data-caret="false">
+                        <i class="fa fa-bell" style="font-size:24px;"></i>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <div data-perfect-scrollbar="" class="position-relative ps">
+                            <div class="dropdown-header"><strong>Notificações</strong></div>
+                            <div class="list-group list-group-flush mb-0">
+                                <a href="javascript:void(0);" class="list-group-item list-group-item-action unread">
+                                    <span class="d-flex">
+                                        <span class="flex d-flex flex-column">
+                                            <span class="text-black-70">Não tem notificações de momento.</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                        <div class="ps__rail-x" style="left: 0px; bottom: 0px;"><div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps__rail-y" style="top: 0px; right: 0px;"><div class="ps__thumb-y" tabindex="0" style="top: 0px; height: 0px;"></div></div></div>
+                    </div>
+                </div>
+                <!-- // END Notifications dropdown -->
+                <li class="nav-item dropdown">
+                    <a href="http://172.16.0.232/portal#" class="nav-link dropdown-toggle blink" data-toggle="dropdown" data-caret="false"><i class="fa fa-question-circle" style="font-size:24px;"></i></a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a href="http://172.16.0.232/home/shortcuts" class="dropdown-item pt-3" title="Atalhos"><i class="fa fa-shrimp fa-fw"></i>&nbsp;Atalhos </a>
+                        <a href="https://manual.piagetsga.unipiaget-angola.org/" target="_blank" class="dropdown-item" title="Manual do Utilizador"><i class="fa fa-book fa-fw"></i>&nbsp;Manual do Utilizador </a>
+                        <a href="https://ocorencias.piagetsga.unipiaget-angola.org/" target="_blank" class="dropdown-item pb-2" title="Centro de Ocorrências"><i class="fa fa-bug fa-fw"></i>&nbsp;Centro de Ocorrências</a>
+                    </div>
+                </li>
+        </ul>
+
+            <!-- Navbar Menu -->
+            <div class="nav navbar-nav flex-nowrap d-flex mr-16pt">
+                <!-- Account Menu dropdown -->
+                <div class="nav-item dropdown">
+                    <a href="http://172.16.0.232/portal#" class="nav-link d-flex align-items-center dropdown-toggle" data-toggle="dropdown" data-caret="false">
+                        <img width="32" height="32" class="rounded-circle avatar avatar-sm mr-8pt2" src="./Portal do Estudante - Instituto Piaget de Angola_files/user-avatar.jpg" alt="Conta">
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <div class="dropdown-header"><strong>antunes.domingos</strong></div>
+                        <a class="dropdown-item" href="http://172.16.0.232/account/profile?uri=general" title="Conta">Conta</a>
+                        <a class="dropdown-item" title="Terminar Sessão" accesskey="s" href="javascript:document.getElementById(&#39;logoutForm&#39;).submit()">Terminar Sessão</a>
+                    </div>
+                </div>
+            </div>
+            <!-- // END Navbar Menu -->
+
+    </div>
+</div>
+    <!-- Sticky Menu -->
+    <div class="sticky-container">
+        <ul class="sticky">
+            <li>
+                <span class="fa fa-shrimp fa-2x"></span>
+                <p><a title="Atalhos" href="http://172.16.0.232/home/shortcuts" target="_blank">Atalhos</a></p>
+            </li>
+            <li>
+                <span class="fa fa-book fa-2x"></span>
+                <p><a title="Manual do Utilizador" href="https://manual.piagetsga.unipiaget-angola.org/" target="_blank">Manual do<br>Utilizador</a></p>
+            </li>
+            <li>
+                <span class="fa fa-bug fa-2x"></span>
+                <p><a title="Centro de Ocorrências" href="https://ocorencias.piagetsga.unipiaget-angola.org/" target="_blank">Centro de <br> Ocorrências</a></p>
+            </li>
+        </ul>
+    </div>
+    <!-- // END Sticky Menu -->
+
+            </div>
+        </div>
+        <!-- // END Header -->
+        <!-- BEFORE Page Content -->
+        <!-- // END BEFORE Page Content -->
+        <!-- Page Content -->
+            
+<!-- Page Content -->
+<div class="container page-section">
+    <div class="main-areas d-flex">
+        <div class="atalho-area">
+            <div>
+                <div class="sidebar sidebar-mini ps sidebar-light sidebar-left d-flex flex-column card-reader-radius">
+                    <div class="card-header card-reader-radius bg-gradient-secondary">
+                        <h3 class="card-title text-white">Atalhos</h3>
+                    </div>
+            
+                    <div class="">
+                        <div class="sidebar sidebar-mini ps sidebar-left d-flex flex-column ">
+                            <ul class="sidebar-menu pb-16pt">
+                                <li class="sidebar-menu-item open">
+                                    <a class="sidebar-menu-button js-sidebar-collapse" data-toggle="collapse" href="home.html">
+                                        <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-home fa-fw"></i></span>
+                                        <span class="sidebar-menu-text hide-long-text">Recursos</span>
+                                    </a>
+                                    <ul class="sidebar-submenu collapse sm-indent show" id="GPAdm_menu">
+                                        <li class="sidebar-menu-item">
+                                            <a class="sidebar-menu-button" href="candidatura.html" title="Perfil">
+                                                <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-clipboard-check fa-fw"></i></span>
+                                                <span class="sidebar-menu-text">Candidaturas</span>
+                                            </a>
+                                        </li>
+                                        <li class="sidebar-menu-item">
+                                            <a class="sidebar-menu-button" href="pesquisa-notas.html" title="Pesquisa de Notas">
+                                                <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-search fa-fw"></i></span>
+                                                <span class="sidebar-menu-text hide-long-text">Pesquisa de Notas</span>
+                                            </a>
+                                        </li>
+                                        <li class="sidebar-menu-item">
+                                            <a class="sidebar-menu-button" href="percurso-academico.html">
+                                                <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-bar-chart fa-fw"></i></span>
+                                                <span class="sidebar-menu-text hide-long-text">Percurso Académico</span>
+                                            </a>
+                                        </li>
+                                        <li class="sidebar-menu-item">
+                                            <a class="sidebar-menu-button" href="perfil.html" title="Perfil">
+                                                <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-user fa-fw"></i></span>
+                                                <span class="sidebar-menu-text">Perfil</span>
+                                            </a>
+                                        </li>
+                                        <li class="sidebar-menu-item">
+                                            <a class="sidebar-menu-button" href="documentos.html">
+                                                <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-file-alt fa-fw"></i></span>
+                                                <span class="sidebar-menu-text">Documentos</span>
+                                            </a>
+                                        </li>
+                                        <li class="sidebar-menu-item">
+                                            <a class="sidebar-menu-button" href="reclamacoes.html">
+                                                <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-comments fa-fw"></i></span>
+                                                <span class="sidebar-menu-text">Reclamações</span>
+                                            </a>
+                                        </li>  
+                                        <li class="sidebar-menu-item">
+                                            <a class="sidebar-menu-button disabled" href="http://41.63.177.143:12013/portal/profile?uri=global">
+                                                <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-dollar-sign fa-fw"></i></span>
+                                                <span class="sidebar-menu-text">Emolumentos</span>
+                                            </a>
+                                        </li>
+                                        <li class="sidebar-menu-item">
+                                            <a class="sidebar-menu-button disabled" href="http://41.63.177.143:12013/portal/profile?uri=global">
+                                                <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-folder-open fa-fw"></i></span>
+                                                <span class="sidebar-menu-text">Certidões</span>
+                                            </a>
+                                        </li>
+                                        <li class="sidebar-menu-item">
+                                            <a class="sidebar-menu-button disabled" href="http://41.63.177.143:12013/portal/profile?uri=global">
+                                                <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-pen-fancy fa-fw"></i></span>
+                                                <span class="sidebar-menu-text">Exames</span>
+                                            </a>
+                                        </li>
+                                        <li class="sidebar-menu-item">
+                                            <a class="sidebar-menu-button disabled" href="http://41.63.177.143:12013/portal/profile?uri=global">
+                                                <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-calendar-check fa-fw"></i></span>
+                                                <span class="sidebar-menu-text">Horários</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sidebar-menu-item open">
+                                    <a class="sidebar-menu-button js-sidebar-collapse" data-toggle="collapse" href="http://172.16.0.232/portal#ConfigGP_menu">
+                                        <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-cog fa-fw"></i></span>
+                                        <span class="sidebar-menu-text hide-long-text">Outros</span>
+                                    </a>
+                                    <ul class="sidebar-submenu collapse sm-indent show" id="ConfigGP_menu">
+                                        <li class="sidebar-menu-item">
+                                            <a class="sidebar-menu-button disabled" href="http://41.63.177.143:12013/portal?uri=perfil" title="Perfil">
+                                                <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-envelope fa-fw"></i></span>
+                                                <span class="sidebar-menu-text">WebMail</span>
+                                            </a>
+                                        </li>
+                                        <li class="sidebar-menu-item">
+                                            <a class="sidebar-menu-button disabled" href="http://41.63.177.143:12013/portal?uri=perfil" title="Perfil">
+                                                <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-circle-info fa-fw"></i></span>
+                                                <span class="sidebar-menu-text">Ajuda</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-area">
+            <div>
+                <div class="row">
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card card-table-notas p-2">
+                                    <div class="list-group list-group-flush ">
+                                        <div class="page-separator">
+                                            <div class="page-separator__text">
+                                                <p class="separator-line">
+                                                    <i class="fa-solid fa-newspaper"></i>
+                                                    Painel Informativo
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="card card-table-notas p-2">
+                                            <div>
+                                                <div>
+                                                    <div class="full-info">
+                                                        <h2 class="main-info-title h4">
+                                                            <i class="fa-solid fa-handshake-angle"></i>
+                                                            Caro candidato, seja bem-vindo ao portal de candidatura da UniPiaget
+                                                        </h2>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="card card-table-notas p-2">
+                                    <div class="list-group list-group-flush ">
+                                        <div class="page-separator">
+                                            <div class="page-separator__text">
+                                                <p class="separator-line">
+                                                    <i class="fa-solid fa-graduation-cap"></i>
+                                                    Minhas Opções de Curso
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="p-2">
+                                            <div>
+                                                <span style="font-weight: bold;">1ª Opção</span>
+                                                <p class="p-2 h5 bg-gradient-purple" style="font-size: 16; text-transform: none; border-radius: 5px 5px 0 0; margin-bottom: 0;">
+                                                    <a href="#" style="color: #fff;">
+                                                        <strong>Engenharia Informática de Gestão </strong>
+                                                    </a>
+                                                </p>
+                                                <p style="margin: 0; padding: 8px; background-color: #eee; border-radius: 0 0 5px 5px; margin-bottom: 8px;">
+                                                    [Area para Descrição do curso]
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <span style="font-weight: bold;">2ª Opção</span>
+                                                <p class="p-2 h5 bg-gradient-purple" style="font-size: 16; text-transform: none; border-radius: 5px 5px 0 0; margin-bottom: 0;">
+                                                    <a href="#" style="color: #fff;">
+                                                        <strong>Engenharia Electromecânica </strong>
+                                                    </a>
+                                                </p>
+                                                <p style="margin: 0; padding: 8px; background-color: #eee; border-radius: 0 0 5px 5px; margin-bottom: 8px;">
+                                                    [Area para Descrição do curso]
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="row">
+                                <div class="col-12">
+                                <div class="row">
+                                        <!--<div class="col-12">
+                                            <div class="card p-2 financy">
+                                                <div class="list-group list-group-flush ">
+                                                    <div class="page-separator">
+                                                        <div class="page-separator__text">
+                                                            <p class="separator-line">
+                                                                <i class="fa-solid fa-coins"></i>
+                                                                Situação Financeira
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="content text-center">
+                                                        <p style="font-size: 30px; margin-bottom: 0;">
+                                                            <span><i class="fa-solid fa-thumbs-up"></i> </span><br>
+                                                        </p>
+                                                    <p style="font-size: 14px;  margin-bottom: 0;">
+                                                            <strong><span>Situação Financeira Regula</span></strong><br>
+                                                    </p>
+                                                    <p style="font-size: 25px; margin: 0; padding: 0;">
+                                                            <strong>0,00 KZ</strong>
+                                                    </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>-->
+                                        <div class="col-12 user">
+                                            <div class="card card-table-notas p-2">
+                                                <div class="list-group list-group-flush ">
+                                                    <div class="page-separator">
+                                                        <div class="page-separator__text">
+                                                            <p class="separator-line">
+                                                                <i class="fa-solid fa-calendar"></i>
+                                                                Calendário de Ingressos
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="area-info-content">
+                                                      <table class="table">
+                                                        <thead class="th">
+                                                            <tr>
+                                                                <th class="text-center">Início</th>
+                                                                <th class="text-center">Fim</th>
+                                                                <th>Actividades</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr style="background-color: #f3dfdf;">
+                                                                <td>07 de Agosto</td>
+                                                                <td>13 de Setembro</td>
+                                                                <td>Inscrições de candidatos para os exames de acesso</td>
+                                                            </tr>
+                                                            <tr style="background-color: #e3e8f3;">
+                                                                <td colspan="2" class="text-center">15 de Setembro</td>
+                                                                <td>Publicação das listas dos Candidatos inscritos</td>
+                                                            </tr>
+                                                            <tr style="background-color: #eee;">
+                                                                <td>18 de Setembro</td>
+                                                                <td>20 de Setembro</td>
+                                                                <td>Realização dos exames de acesso ao ensino superior</td>
+                                                            </tr>
+                                                            <tr style="background-color: #e9f7fa;">
+                                                                <td>25 de Setembro</td>
+                                                                <td>30 de Setembro</td>
+                                                                <td>Matrícula dos aprovados nos exames de acesso</td>
+                                                            </tr>
+                                                            <tr style="background-color: #eee;">
+                                                                <td colspan="2" class="text-center">2 de Outubro</td>
+                                                                <td>Abertura Oficial do ano Académico: 2 de Outubro (Segunda-Feira)</td>
+                                                            </tr>
+                                                        </tbody>
+                                                      </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="user-data-area">
+            <div>
+                <div class="card-header bg-gradient-secondary border-bottom-2 p-4 card card-reader-radius o-hidden">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <div class="user-box">
+                                <a href="http://172.16.0.232/portal" target="_blank" title=""><img class="border-gray profile-image profile-image mr-md-32pt mb-32pt mb-md-0 img-fluid text-warning" src="./Portal do Estudante - Instituto Piaget de Angola_files/user-avatar.jpg" alt=""></a>
+                            </div>
+    
+                        </div>
+                    </div>
+                    <div class="row mt-12pt">
+                        <div class="col-md-12 text-center">
+                            <h3 class="text-white mb-0 pb-2" style="border-bottom: 1px solid #eca021;">
+                                Antunes António Augusto Domingos
+                            </h3>
+                        </div>
+                        <div class="col-md-12 mt-12pt text-center">
+                            <h6 class="text-white mb-0">
+                                <i class="fa-regular fa-id-badge"></i>
+                                V0048225
+                            </h6>
+                            <h6 class="text-white mb-0">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                Engenharia Informática de Gestão
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="row mt-12pt">
+                        <div class="col-sm-12 text-white">
+                            <div class="mt-24pt">
+                                <a href="http://172.16.0.232/portal?uri=editperfil" title="Editar Perfil" class="btn btn-user btn-sm w-100">
+                                    <strong><i class="fa fa-pencil"></i> Editar Perfil</strong>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <!-- // END Page Content -->
+        <!-- Footer -->
+        <div class="bg-white border-top-2 mt-auto">
+            <div class="container page-section d-flex flex-column">
+                <!--.container -->
+                <!--<p class="text-70 brand mb-24pt"> <img class="brand-icon" src="/Assets/images/logo-black.png" width="30"  alt="Luma"></p>-->
+                <p class=" small  mb-0">antunes.domingos</p>
+                <p class="text-50 small mt-n1 mb-0">Instituto Piaget de Angola</p>
+            </div>
+        </div>
+        <!-- // END Footer -->
+        <!-- // END drawer-layout__content -->
+        <!-- drawer -->
+        <!-- Drawer -->
+<div class="mdk-drawer js-mdk-drawer active" id="default-drawer" data-align="start" data-position="left" data-domfactory-upgraded="mdk-drawer"><div class="mdk-drawer__scrim" style=""></div>
+    <div class="mdk-drawer__content" style="">
+        <!--   <div class="sidebar sidebar-light sidebar-light-dodger-blue sidebar-left"
+                 data-perfect-scrollbar>-->
+        <div class="sidebar sidebar-mini sidebar-dark-pickled-bluewood sidebar-left d-flex flex-column ps ps--active-y" data-perfect-scrollbar="">
+            <br>
+                <div class="sidebar-heading"><i class=""><i class="fa fa-tools"></i></i> Administração</div>
+                <ul class="sidebar-menu">
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button " href="http://172.16.0.232/administration/institutions">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-university fa-fw"></i></span>
+                            <span class="sidebar-menu-text">Instituições</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button " href="http://172.16.0.232/administration/levels">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-repeat fa-fw"></i></span>
+                            <span class="sidebar-menu-text">Níveis Administrativos</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button " href="http://172.16.0.232/administration/units">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-archway fa-fw"></i></span>
+                            <span class="sidebar-menu-text">Unidades Orgânicas</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button " href="http://172.16.0.232/administration/applications">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-server fa-fw"></i></span>
+                            <span class="sidebar-menu-text">Aplicações e Módulos</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button " href="http://172.16.0.232/administration/campus">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-box fa-fw"></i></span>
+                            <span class="sidebar-menu-text">Campus</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button " href="http://172.16.0.232/administration/buildings">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa-brands fa-instalod fa-fw"></i></span>
+                            <span class="sidebar-menu-text">Edifícios e pisos</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button  " href="http://172.16.0.232/administration/spaces">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-circle-nodes fa-fw"></i></span>
+                            <span class="sidebar-menu-text">Espaços</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button " href="http://172.16.0.232/administration/spacescharacteristic">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-crop fa-fw"></i></span>
+                            <span class="sidebar-menu-text">Características</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button  " href="http://172.16.0.232/administration/spacesutilization">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-code-pull-request fa-fw"></i></span>
+                            <span class="sidebar-menu-text">Utilização</span>
+                        </a>
+                    </li>
+                    <!-- <li class="sidebar-menu-item ">
+        <a class="sidebar-menu-button js-sidebar-collapse"
+           data-toggle="collapse"
+           href="#imoveis_menu">
+            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-hotel fa-fw"></i></span>
+            Imóveis e Espaços
+            <span class="ml-auto sidebar-menu-toggle-icon"></span>
+        </a>
+        <ul class="sidebar-submenu collapse sm-indent"
+            id="imoveis_menu">
+            <li class="sidebar-menu-item">
+                <a class="sidebar-menu-button "
+                   href="/administration/campus">
+                    <span class="sidebar-menu-text">Campus</span>
+                </a>
+            </li>
+            <li class="sidebar-menu-item">
+                <a class="sidebar-menu-button "
+                   href="/administration/buildings">
+                    <span class="sidebar-menu-text">Edifícios e pisos</span>
+                </a>
+            </li>
+            <li class="sidebar-menu-item">
+                <a class="sidebar-menu-button "
+                   href="/administration/spaces">
+                    <span class="sidebar-menu-text">Espaços</span>
+                </a>
+            </li>
+            <li class="sidebar-menu-item">
+                <a class="sidebar-menu-button "
+                   href="/administration/spacescharacteristic">
+                    <span class="sidebar-menu-text">Características</span>
+                </a>
+            </li>
+            <li class="sidebar-menu-item">
+                <a class="sidebar-menu-button "
+                   href="/administration/spacesutilization">
+                    <span class="sidebar-menu-text">Utilização</span>
+                </a>
+            </li>
+        </ul>
+    </li>
+        -->
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button " href="http://172.16.0.232/administration/atoms">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-key fa-fw"></i></span>
+                            <span class="sidebar-menu-text">Átomos de Acessos</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button " href="http://172.16.0.232/administration/profiles">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-shield fa-fw"></i></span>
+                            <span class="sidebar-menu-text">Perfis de Segurança</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button " href="http://172.16.0.232/administration/groups">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-user-group fa-fw"></i></span>
+                            <span class="sidebar-menu-text">Grupos de Utilizadores</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button " href="http://172.16.0.232/administration/users">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-user-lock fa-fw"></i></span>
+                            <span class="sidebar-menu-text">Contas de Utilizadores</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button " href="http://172.16.0.232/administration/accesscontrol">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fas fa-user-cog fa-fw"></i></span>
+                            <span class="sidebar-menu-text">Painel de Acesso</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item active">
+                        <a class="sidebar-menu-button disabled" href="http://172.16.0.232/portal">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-clock fa-fw"></i></span>
+                            <span class="sidebar-menu-text">Delegações</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button " href="http://172.16.0.232/administration/logs">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-search fa-fw"></i></span>
+                            <span class="sidebar-menu-text">Rastreamentos</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button " href="http://172.16.0.232/administration/tokens">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-code-branch fa-fw"></i></span>
+                            <span class="sidebar-menu-text">Tokens</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button " href="http://172.16.0.232/administration/configurations">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-wrench fa-fw"></i></span>
+                            <span class="sidebar-menu-text">Definições</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button" href="http://172.16.0.232/administration/parameters?uri=global">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-cogs fa-fw"></i></span>
+                            <span class="sidebar-menu-text">Parametrização</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button disabled" href="http://172.16.0.232/administration/parameters?uri=global">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-mail-bulk fa-fw"></i></span>
+                            <span class="sidebar-menu-text">Templates</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="sidebar-heading"><i class=""><i class="fa fa-graduation-cap"></i></i> Gestão Académica</div>
+                <ul class="sidebar-menu">
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button " href="http://172.16.0.232/gamanagement/process">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-copy fa-fw"></i></span>
+                            <span class="sidebar-menu-text">Processos</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button " href="http://172.16.0.232/gamanagement/applications">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-clipboard-check fa-fw"></i></span>
+                            <span class="sidebar-menu-text">Candidaturas</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button " href="http://172.16.0.232/gamanagement/courses">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-book-open-reader fa-fw"></i></span>
+                            <span class="sidebar-menu-text">Cursos</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button " href="http://172.16.0.232/gamanagement/fields">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-share-alt fa-fw"></i></span>
+                            <span class="sidebar-menu-text">Ramos</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button  " href="http://172.16.0.232/gamanagement/subjects">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="	fas fa-graduation-cap fa-fw"></i></span>
+                            <span class="sidebar-menu-text">Disciplinas</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button  " href="http://172.16.0.232/gamanagement/gastudyplans">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fas fa-book-open fa-fw"></i></span>
+                            <span class="sidebar-menu-text">Planos de Estudo</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button " href="http://172.16.0.232/gamanagement/calendar">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-calendar fa-fw"></i></span>
+                            <span class="sidebar-menu-text hide-long-text">Calendário Académico</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button " href="http://172.16.0.232/gamanagement/occurrenceplans">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-refresh fa-fw"></i></span>
+                            <span class="sidebar-menu-text hide-long-text">Planos de Ocorrências</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button " href="http://172.16.0.232/gamanagement/gaclasses">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fas fa-chalkboard-teacher fa-fw"></i></span>
+                            <span class="sidebar-menu-text">Turmas</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button  " href="http://172.16.0.232/gamanagement/scholarshipentities">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-people-group fa-fw"></i></span>
+                            <span class="sidebar-menu-text hide-long-text">Entidades Bolseiras</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button disabled" href="http://172.16.0.232/gamanagement/parameters">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-tags fa-fw"></i></span>
+                            <span class="sidebar-menu-text">Boletims</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="sidebar-heading"><span class=" hide-long-text"><i class="fa fa-dollar-sign"></i> Gestão de Pagamentos</span></div>
+                <ul class="sidebar-menu">
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button disabled" href="http://172.16.0.232/gpagmanagement/checkingaccount">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-id-card fa-fw"></i></span>
+                            <span class="sidebar-menu-text hide-long-text">Contas Correntes</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button " href="http://172.16.0.232/gpagmanagement/paymentplans">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-random fa-fw"></i></span>
+                            <span class="sidebar-menu-text hide-long-text">Planos de Pagamento</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button " href="http://172.16.0.232/gpagmanagement/typologies">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-box-open fa-fw"></i></span>
+                            <span class="sidebar-menu-text">Tipologias</span>
+                        </a>
+                    </li>
+
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button " href="http://172.16.0.232/gpagmanagement/paymentmethod">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-cash-register fa-fw"></i></span>
+                            <span class="sidebar-menu-text">Métodos de Pagamentos</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button " href="http://172.16.0.232/gpagmanagement/taxes">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-hand-holding-dollar fa-fw"></i></span>
+                            <span class="sidebar-menu-text">Impostos</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button " href="http://172.16.0.232/gpagmanagement/series">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa-solid fa-feather fa-fw"></i></span>
+                            <span class="sidebar-menu-text">Séries</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="sidebar-heading"><i class=""><i class="fa fa-user-friends"></i></i> Gestão Pessoal</div>
+                <ul class="sidebar-menu">
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button " href="http://172.16.0.232/gpmanagement/users">
+                            <span class="sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-user-edit fa-fw"></i></span>
+                            <span class="sidebar-menu-text">Dados Pessoais</span>
+                        </a>
+                    </li>
+                </ul>
+            <!-- // END Sidebar Content -->
+
+        <div class="ps__rail-x" style="left: 0px; bottom: 0px;"><div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps__rail-y" style="top: 0px; height: 625px; right: 0px;"><div class="ps__thumb-y" tabindex="0" style="top: 0px; height: 316px;"></div></div></div>
+    </div>
+</div>
+
+<!-- // END Drawer -->
+        <!-- // END drawer -->
+
+    </div>
+
+            <!-- // END Drawer Layout -->
+            <!-- Modal -->
+            <div class="modal fade" id="crudControlModal" tabindex="-1" role="dialog" aria-labelledby="crudControlLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        
+                        <div class="modal-crud-content">
+                            <div class="p-12pt"><img src="./Portal do Estudante - Instituto Piaget de Angola_files/loading.gif"></div>
+                            <!-- // AJAXMODAL CRUDCONTROL CONTENT -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="./Portal do Estudante - Instituto Piaget de Angola_files/jquery.min.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/popper.min.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/toastr.min.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/bootstrap.min.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/jquery.dataTables.min.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/moment.min.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/daterangepicker.min.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/perfect-scrollbar.min.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/dom-factory.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/material-design-kit.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/unobtrusive-ajax.min.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/dataTables.checkboxes.min.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/jquery.form.min.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/jquery.fancytree-all-deps.min.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/quill.min.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/sortable.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/piagetJS.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/select2.min.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/template.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/typeahead.bundle.min.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/fullcalendar.min.js.transferir"></script>
+<script src="./Portal do Estudante - Instituto Piaget de Angola_files/locales-all.min.js.transferir"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    const ctx = document.getElementById('myChart');
+
+    new Chart(ctx, {
+    type: 'doughnut',
+    data: {
+        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+        datasets: [{
+        label: '# of Votes',
+        data: [12, 19, 3, 5, 2, 3],
+        borderWidth: 1
+        }]
+    },
+    options: {
+        scales: {
+        y: {
+            beginAtZero: true
+        }
+        }
+    }
+    });
+</script>
+
+<!--<script src="assets/js/material-design.js"></script>
+<script src="assets/js/chart.min.js"></script>
+<script src="assets/js/chart.js"></script>-->
+
+            
+<script>
+    /*(function () {
+        'use strict';
+        // ENABLE sidebar menu tabs
+        $('.js-sidebar-mini-tabs [data-toggle="tab"]').on('click', function (e) {
+            e.preventDefault()
+            $(this).tab('show')
+        })
+        $('.js-sidebar-mini-tabs').on('show.bs.tab', function (e) {
+            $('.js-sidebar-mini-tabs > .active').removeClass('active')
+            $(e.target).parent().addClass('active')
+        })
+    })()*/
+</script>
+<script>quillEditor();</script>
+<script>SetUpDatepicker();</script>
+<!--<script>setupSelect2();</script>-->
+
+</body></html>

@@ -1,0 +1,153 @@
+<div class="row">
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card card-table-notas p-2">
+                                    <div class="list-group list-group-flush ">
+                                        <div class="page-separator">
+                                            <div class="page-separator__text">
+                                                <p class="separator-line">
+                                                    <i class="fa-solid fa-newspaper"></i>
+                                                    Painel Informativo
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="card card-table-notas p-2">
+                                            <div>
+                                                <div>
+                                                    <div class="full-info">
+                                                        <h2 class="main-info-title h4">
+                                                            <i class="fa-solid fa-handshake-angle"></i>
+                                                            Caro candidato, seja bem-vindo ao portal de candidatura da UniPiaget
+                                                        </h2>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="card card-table-notas p-2">
+                                    <div class="list-group list-group-flush ">
+                                        <div class="page-separator">
+                                            <div class="page-separator__text">
+                                                <p class="separator-line">
+                                                    <i class="fa-solid fa-graduation-cap"></i>
+                                                    Minhas Opções de Curso
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="p-2">
+                                            <div>
+                                                <span style="font-weight: bold;">1ª Opção</span>
+                                                <p class="p-2 h5 bg-gradient-purple" style="font-size: 16; text-transform: none; border-radius: 5px 5px 0 0; margin-bottom: 0;">
+                                                    <a href="#" style="color: #fff;">
+                                                        <strong>Engenharia Informática de Gestão </strong>
+                                                    </a>
+                                                </p>
+                                                <p style="margin: 0; padding: 8px; background-color: #eee; border-radius: 0 0 5px 5px; margin-bottom: 8px;">
+                                                    [Area para Descrição do curso]
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <span style="font-weight: bold;">2ª Opção</span>
+                                                <p class="p-2 h5 bg-gradient-purple" style="font-size: 16; text-transform: none; border-radius: 5px 5px 0 0; margin-bottom: 0;">
+                                                    <a href="#" style="color: #fff;">
+                                                        <strong>Engenharia Electromecânica </strong>
+                                                    </a>
+                                                </p>
+                                                <p style="margin: 0; padding: 8px; background-color: #eee; border-radius: 0 0 5px 5px; margin-bottom: 8px;">
+                                                    [Area para Descrição do curso]
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="row">
+                                <div class="col-12">
+                                <div class="row">
+                                        <!--<div class="col-12">
+                                            <div class="card p-2 financy">
+                                                <div class="list-group list-group-flush ">
+                                                    <div class="page-separator">
+                                                        <div class="page-separator__text">
+                                                            <p class="separator-line">
+                                                                <i class="fa-solid fa-coins"></i>
+                                                                Situação Financeira
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="content text-center">
+                                                        <p style="font-size: 30px; margin-bottom: 0;">
+                                                            <span><i class="fa-solid fa-thumbs-up"></i> </span><br>
+                                                        </p>
+                                                    <p style="font-size: 14px;  margin-bottom: 0;">
+                                                            <strong><span>Situação Financeira Regula</span></strong><br>
+                                                    </p>
+                                                    <p style="font-size: 25px; margin: 0; padding: 0;">
+                                                            <strong>0,00 KZ</strong>
+                                                    </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>-->
+                                        <div class="col-12 user">
+                                            <div class="card card-table-notas p-2">
+                                                <div class="list-group list-group-flush ">
+                                                    <div class="page-separator">
+                                                        <div class="page-separator__text">
+                                                            <p class="separator-line">
+                                                                <i class="fa-solid fa-calendar"></i>
+                                                                Calendário de Ingressos
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="area-info-content">
+                                                      <table class="table">
+                                                        <thead class="th">
+                                                            <tr>
+                                                                <th class="text-center">Início</th>
+                                                                <th class="text-center">Fim</th>
+                                                                <th>Actividades</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr style="background-color: #f3dfdf;">
+                                                                <td>07 de Agosto</td>
+                                                                <td>13 de Setembro</td>
+                                                                <td>Inscrições de candidatos para os exames de acesso</td>
+                                                            </tr>
+                                                            <tr style="background-color: #e3e8f3;">
+                                                                <td colspan="2" class="text-center">15 de Setembro</td>
+                                                                <td>Publicação das listas dos Candidatos inscritos</td>
+                                                            </tr>
+                                                            <tr style="background-color: #eee;">
+                                                                <td>18 de Setembro</td>
+                                                                <td>20 de Setembro</td>
+                                                                <td>Realização dos exames de acesso ao ensino superior</td>
+                                                            </tr>
+                                                            <tr style="background-color: #e9f7fa;">
+                                                                <td>25 de Setembro</td>
+                                                                <td>30 de Setembro</td>
+                                                                <td>Matrícula dos aprovados nos exames de acesso</td>
+                                                            </tr>
+                                                            <tr style="background-color: #eee;">
+                                                                <td colspan="2" class="text-center">2 de Outubro</td>
+                                                                <td>Abertura Oficial do ano Académico: 2 de Outubro (Segunda-Feira)</td>
+                                                            </tr>
+                                                        </tbody>
+                                                      </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
